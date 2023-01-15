@@ -1,0 +1,114 @@
+body {
+    background: $lightBlue;
+}
+
+.card{
+    background: #b2cefc;
+    //border: 1px solid black;
+    padding: 20px 20px;
+    margin: 0px 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px $darkerBlue;
+    min-width: 200px;
+    .cardTemp{
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        margin-top: -30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255), 1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);
+    }
+    .weatherIcon{
+        display: flex;
+        justify-content: center;
+        margin-top: -20px;
+        // border: 1px solid black;
+    }
+    .cardDesc{
+        display: flex;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        // font-family: "Merriweather", serif;
+        // font-style: italic;
+        font-size: 15px;
+        text-transform: uppercase;
+        text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255), 1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);
+    }
+    .cardTitle {
+       margin: -10px 0px 0px 0px;
+       display: flex;
+       justify-content: center;
+        //color: $trueblue;
+       color: rgb(92, 76, 220);
+        letter-spacing: .15rem;
+        font-size: 30px;
+        //text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255), 1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);
+    }
+    .cardfeelslike{
+        display: flex;
+            justify-content: center;
+            font-family: Arial, Helvetica, sans-serif;
+            // font-family: "Merriweather", serif;
+            font-style: italic;
+            font-size: 15px;
+            text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255), 1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);
+    }
+    .clothesicon{
+        display: flex;
+        justify-content: center;
+    }
+    .recc{
+        display: flex;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        font-size: 15px;
+        text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255), 1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);
+    }
+                .deletebutton {
+                    margin: auto;
+                }
+}
+
+
+.cardHolder{
+    display: flex;
+    // border: 1px solid yellow;
+    //border: 1px solid black;
+    max-width: 100%;
+    justify-content: center;
+}
+
+h1{
+    padding-top: 30px;
+    // color: $pastelYellow;
+    color: $trueblue;
+    display: flex;
+    justify-content: center; 
+    font-family: "Comic Sans MS", Comic Sans, cursive;
+    font-weight: bold;
+    font-size: 50px;
+    //text-shadow: 1px 1px 2px rgb(255, 183, 0), 0 0 1em rgb(255, 183, 0), 0 0 0.2em rgb(255, 149, 0);
+    text-shadow: -2px 0 rgb(255, 255, 255), 0 2px rgb(255, 255, 255), 2px 0 rgb(255, 255, 255), 0 -2px rgb(255, 255, 255);
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // border: 1px solid red;
+  .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cityInput {
+      margin-left: 10px;
+      margin-right: 40px;
+  }
+}
+
+
